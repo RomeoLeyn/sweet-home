@@ -1,0 +1,55 @@
+.about-me {
+    background-color: #f7ebed;
+}
+
+.about-me-title>h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+.about-me-history,
+.custom-text {
+    font-family: "Lora", serif;
+    color: rgb(112, 107, 107);
+}
+
+.image-item>img {
+    width: 75%;
+    height: 100%;
+}
+
+.custom-image,
+.about-my-kitchen {
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#full-text {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+#full-text.expanded {
+    max-height: 500px;
+}
+
+#read-more-btn {
+    margin-top: 10px;
+    background-color: #e8cfd3;
+    color: rgb(112, 107, 107);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

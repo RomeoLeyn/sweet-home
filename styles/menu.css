@@ -1,0 +1,24 @@
+.menu {
+    background-color: #f7ebed;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-height: 350px;
+    object-fit: cover;
+}
+
+p {
+    font-family: "Lora", serif;
+}

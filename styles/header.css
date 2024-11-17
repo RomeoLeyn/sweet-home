@@ -1,0 +1,50 @@
+.nav-separator {
+    margin: 0 10px;
+}
+
+.border {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.logo {
+    background-color: #e8cfd3;
+    font-family: "Lora", serif;
+    font-size: 38px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+.logo:hover {
+    background-color: #ffffff;
+    color: #e8cfd3;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+.nav-title {
+    border-right: 1px solid #000000;
+}
+
+.item,
+.dropdown-item {
+    font-family: "Montserrat", serif;
+}
+
+.item:hover {
+    color: #e8cfd3 !important;
+    transition: color 0.3s;
+}
+
+.about-author {
+    border: 1px solid #e8cfd3;
+    padding: 10px;
+    color: #e8cfd3;
+}
+
+.about-author:hover {
+    transition: background-color 0.6s;
+    background-color: #e8cfd3;
+    color: #ffffff;
+}

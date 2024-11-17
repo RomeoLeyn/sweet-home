@@ -1,0 +1,38 @@
+.photo-container>.photo-item {
+    width: 75%;
+    height: 100%;
+}
+
+.custom-text {
+    font-family: "Lora", serif;
+    color: rgb(112, 107, 107);
+    font-size: 20px;
+}
+
+.item img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; /* Додати відступ між контейнерами */
+}
+
+.video video {
+    max-width: 100%; /* Зменшує розмір відео до ширини контейнера */
+    height: auto; /* Зберігає пропорції відео */
+}
+
+.photo {
+    margin: 5px 0; /* Відступи між зображеннями і відео */
+}
+
+.photo img {
+    max-width: 100px; /* Встановлює максимальну ширину для зображень */
+    height: auto; /* Зберігає пропорції зображень */
+}

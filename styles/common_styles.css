@@ -1,0 +1,32 @@
+.gradient-text {
+    font-family: "Lora", serif;
+    font-weight: 800;
+    font-size: 52px;
+    background: linear-gradient(90deg, #c1c1c1, #333333, #c1c1c1);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 2s infinite linear alternate;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
